@@ -13,7 +13,7 @@ if bmi < 18.5:
   elif bmi 18.5 <= bmi < 23.0:
   st.success("🎉คุณสมส่วน")
   elif bmi 23.0 <= bmi < 25.0:
-  st.success("🔔คุณท้วม")
+  st.info("🔔คุณท้วม")
 else:
 st.error("🚨คุณอยู่ในเกณฑ์อ้วน ควรไปออกกำลังกาย")
 
