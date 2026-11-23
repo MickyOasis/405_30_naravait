@@ -6,7 +6,7 @@ saleprice = price*saleprice/100
 vat = price*0.07
 net_price = saleprice - vat
 st.header(f"• ราคาสินค้า: {price:.2f} บาท")
-st.header(f"• เปอร์เซ็นส่วนลด: {sale:.2f} เปอร์เซ็น")
+st.header(f"• เปอร์เซ็นส่วนลด: {saleprice:.2f} เปอร์เซ็น")
 st.header(f"• ส่วนลด: {saleprice:.2f} บาท")
 st.header(f"• ภาษีมูลค่าเพิ่ม (VAT 7%): **{vat:.2f}** บาท")
 st.header(f"• ราคาสุทธิ: {net_price:.2f} บาท")
